@@ -3,13 +3,10 @@ package com.javatechie.jenkin.api;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
 
-@RunWith(SpringRunner.class)
 @SpringBootTest
 public class SpringJenkinsApplicationTests {
 
@@ -18,7 +15,11 @@ public class SpringJenkinsApplicationTests {
 	@Test
 	public void contextLoads() {
 		logger.info("Test case executing...");
-		assertEquals(true, true);
+		float square = 2 * 2;
+	    float rectangle = 2 * 6;
+
+	   
+	    assertEquals(square, rectangle);
 	}
 
 }
