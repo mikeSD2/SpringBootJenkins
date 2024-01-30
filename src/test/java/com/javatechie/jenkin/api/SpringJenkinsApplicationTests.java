@@ -16,7 +16,7 @@ public class SpringJenkinsApplicationTests {
 	public void contextLoads() {
 		logger.info("Test case executing...");
 		float square = 2 * 2;
-	    float rectangle = 2 * 3;
+	    float rectangle = 2 * 4;
 
 	   
 	    assertEquals(square, rectangle);
